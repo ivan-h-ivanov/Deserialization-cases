@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleInitializer.Test", "ModuleInitializer.Test\ModuleInitializer.Test.csproj", "{DA900DDF-9F47-4F00-9771-103D072D202F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModuleInitializer.Test", "ModuleInitializer.Test\ModuleInitializer.Test.csproj", "{DA900DDF-9F47-4F00-9771-103D072D202F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModuleInitializer", "ModuleInitializer", "{63F8BED4-683C-4924-B186-83F7D3E3E7C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleInitializer", "ModeuleInitializer\ModuleInitializer.csproj", "{4D9EE75F-AE94-4F65-9EDD-11F6DB509C7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModuleInitializer", "ModeuleInitializer\ModuleInitializer.csproj", "{4D9EE75F-AE94-4F65-9EDD-11F6DB509C7C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinFormsDesigner", "WinFormsDesigner", "{629A5CDA-AE18-42C1-80FF-39B25DB6F0C6}"
 EndProject
@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControl", "CustomCont
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XamlParser", "XamlParser", "{8B9CC0E9-ACA5-4C5F-98B9-1E6E55EF173B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlParser.Test", "XamlParset.Test\XamlParser.Test.csproj", "{B45B5409-78AD-408E-B000-031F781628F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamlParser.Test", "XamlParset.Test\XamlParser.Test.csproj", "{B45B5409-78AD-408E-B000-031F781628F2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SafeReflection", "SafeReflection", "{D9BA6878-1A10-4E27-AFDF-458294211EC3}"
 EndProject
@@ -29,13 +29,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyValidator.Test", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnsafeAssembly", "UnsafeAssembly\UnsafeAssembly.csproj", "{8D62A8C0-B6B1-4FEF-BD8B-DD8FA8A6A381}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analyzer", "ReflectionValidationAnalyzer\Analyzer.csproj", "{5448F0F4-E93A-4915-A000-1113053FAB38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Analyzer", "ReflectionValidationAnalyzer\Analyzer.csproj", "{5448F0F4-E93A-4915-A000-1113053FAB38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeLoader", "TypeLoader\TypeLoader.csproj", "{0B3FCAD4-DC76-4367-AF92-9D8B2267E15C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeLoader", "TypeLoader\TypeLoader.csproj", "{0B3FCAD4-DC76-4367-AF92-9D8B2267E15C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafeActivator", "SafeActivator\SafeActivator.csproj", "{593D005E-1EBE-4DEC-9799-2FF495D94455}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SafeActivator", "SafeActivator\SafeActivator.csproj", "{593D005E-1EBE-4DEC-9799-2FF495D94455}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TypeConverter", "TypeConverter", "{C087738D-C140-497D-B746-353FAF3BD9ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeConverter.Test", "TypeConverter.Test\TypeConverter.Test.csproj", "{4BE4ECD0-C802-4097-924F-007D4D2DE100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlsLibrary", "ControlsLibrary\ControlsLibrary.csproj", "{EDE60E99-04E0-4B23-B03D-C00D9574366C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{593D005E-1EBE-4DEC-9799-2FF495D94455}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{593D005E-1EBE-4DEC-9799-2FF495D94455}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{593D005E-1EBE-4DEC-9799-2FF495D94455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE4ECD0-C802-4097-924F-007D4D2DE100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE4ECD0-C802-4097-924F-007D4D2DE100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE4ECD0-C802-4097-924F-007D4D2DE100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE4ECD0-C802-4097-924F-007D4D2DE100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDE60E99-04E0-4B23-B03D-C00D9574366C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE60E99-04E0-4B23-B03D-C00D9574366C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE60E99-04E0-4B23-B03D-C00D9574366C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE60E99-04E0-4B23-B03D-C00D9574366C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,6 +115,8 @@ Global
 		{5448F0F4-E93A-4915-A000-1113053FAB38} = {D9BA6878-1A10-4E27-AFDF-458294211EC3}
 		{0B3FCAD4-DC76-4367-AF92-9D8B2267E15C} = {D9BA6878-1A10-4E27-AFDF-458294211EC3}
 		{593D005E-1EBE-4DEC-9799-2FF495D94455} = {D9BA6878-1A10-4E27-AFDF-458294211EC3}
+		{4BE4ECD0-C802-4097-924F-007D4D2DE100} = {C087738D-C140-497D-B746-353FAF3BD9ED}
+		{EDE60E99-04E0-4B23-B03D-C00D9574366C} = {C087738D-C140-497D-B746-353FAF3BD9ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {275609C8-DA72-4733-AEF6-EF02E4910891}
