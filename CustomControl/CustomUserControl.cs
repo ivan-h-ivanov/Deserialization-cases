@@ -30,10 +30,6 @@ namespace CustomControl
             base.OnPaintAdornments(pe);
 
             var site = this.Component.Site;
-
-            // In the real exploited scenario, Reporting Engine exposed Component.Site as a potential target for expressions.
-            // The code bellow was the result of an intricate chain of expression calls that lead to a command injection.
-
             var manager = site.GetService(typeof(IDesignerSerializationManager)) as DesignerSerializationManager;
             using (manager.CreateSession())
             {

@@ -15,11 +15,12 @@ namespace AssemblyValidator.Test
 
         static void Main(string[] args)
         {
-            string line;
-            while ((line = Console.ReadLine()) != string.Empty)
+            string typeName;
+            while ((typeName = Console.ReadLine()) != string.Empty)
             {
-                var typeName = Console.ReadLine();
-                var type = Type.GetType(string.Format("{0}, {1}", typeName, SafeAssembly));
+                var secureTypeName = string.Format("{0}, {1}", typeName, SafeAssembly);
+                Console.WriteLine("You are loading" + secureTypeName);
+                var type = Type.GetType(secureTypeName);
                 Activator.CreateInstance(type);
             }
         }

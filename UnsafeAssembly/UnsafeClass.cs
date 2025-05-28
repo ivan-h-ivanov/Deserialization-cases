@@ -11,6 +11,7 @@ namespace UnsafeAssembly
     {
         public UnsafeClass()
         {
+            Console.WriteLine("A wild calculator appears!");
             Process.Start("calc.exe");
         }
     }
